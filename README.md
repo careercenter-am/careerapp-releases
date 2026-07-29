@@ -3,22 +3,22 @@
 Public APK downloads for the CareerCenter mobile app.  
 (App source stays in the private `careerapp` repo.)
 
-## Install v0.1.0
+## Latest: v0.1.1
 
-Scan this QR with your Android phone:
+| | |
+|---|---|
+| **APK** | [CareerCenter-0.1.1.apk](https://github.com/Gityer/careerapp-releases/releases/latest/download/CareerCenter-0.1.1.apk) |
+| **Update manifest** | [version.json](https://github.com/Gityer/careerapp-releases/releases/latest/download/version.json) |
+| **Package** | `am.careercenter.app` |
 
-![Scan to download CareerCenter 0.1.0 APK](./assets/qr-v0.1.0.png)
+### QR install
 
-Or download directly:
+![Download APK QR](https://github.com/Gityer/careerapp-releases/releases/download/v0.1.1/qr.png)
 
-**[CareerCenter-0.1.0.apk](https://github.com/Gityer/careerapp-releases/releases/download/v0.1.0/CareerCenter-0.1.0.apk)**
+Scan with your phone to download **0.1.1**. If you already have **0.1.0** installed, opening the app should prompt an in-app update (same signing key, higher `versionCode`).
 
-Release page: [v0.1.0](https://github.com/Gityer/careerapp-releases/releases/tag/v0.1.0)
+### Changelog (0.1.1)
 
-Allow install from this browser / unknown sources if Android asks.
-
-## Updates
-
-The app checks this manifest on every open:
-
-`https://github.com/Gityer/careerapp-releases/releases/latest/download/version.json`
+- Real signed-in profile data across menu / settings / profile
+- Announcement list + company logo fixes
+- Blogs, applicants, bookmarks, notifications, change password
