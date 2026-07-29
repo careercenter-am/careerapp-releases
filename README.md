@@ -2,17 +2,18 @@
 
 Public APK downloads for the CareerCenter mobile app.
 
-## Latest: v0.1.2
+## Latest install
+
+Scan:
+
+![Scan to install](https://raw.githubusercontent.com/Gityer/careerapp-releases/main/assets/qr.png)
+
+Or open **[Latest release](https://github.com/Gityer/careerapp-releases/releases/latest)** and download the APK.
 
 | | |
 |---|---|
-| **APK** | [CareerCenter-0.1.2.apk](https://github.com/Gityer/careerapp-releases/releases/latest/download/CareerCenter-0.1.2.apk) |
+| **Latest APK** | [releases/latest](https://github.com/Gityer/careerapp-releases/releases/latest) |
 | **Update manifest** | [version.json](https://github.com/Gityer/careerapp-releases/releases/latest/download/version.json) |
 | **Package** | `am.careercenter.app` |
 
-### QR install
-
-![Download APK QR](https://github.com/Gityer/careerapp-releases/releases/download/v0.1.2/qr.png)
-
-### Note
-If you are on **0.1.1** and in-app Update hangs at 100%, install **0.1.2 manually** once (QR above). That release fixes the updater.
+There is **one** install QR (`assets/qr.png`). It is replaced on each ship so it always opens the latest release page — older releases do not keep advertising their own QR.
